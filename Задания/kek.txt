@@ -1,0 +1,15 @@
+http://movaviweb.pythonanywhere.com/static/images/lesson2/webpagetemplate.png
+
+^ 
+Взять эту страничку и сверстать
+Ширина сайта - 1200 px
+Использовать семантические HTML5 теги
+типа header - main - footer
+
+http://movaviweb.pythonanywhere.com/web/lesson/2
+Тут можно почитать
+
+Для выравнивания использовать flex-элементы
+https://code.mu/ru/markup/book/prime/block-model/flex-elements/
+В шапке, где идут пункты меню, использовать ненумерованный список, прописав в css стилях родителю ul свойство display: flex
+Не забыть также через css убрать стили у списка (изменить потом по макету)
