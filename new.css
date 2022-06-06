@@ -1,0 +1,30 @@
+#x {
+    padding: 20px;
+    width: 500px;
+    border: 1px solid green;
+    text-align: justify;
+    margin: auto;
+}
+
+#y {
+
+    width: 300px;
+    border: 1px solid red;
+    text-align: justify;
+    padding: 10px;
+    margin: auto;
+}
+span {
+    border: 3px dotted red;
+}
+header, main, footer {
+    width: 1200px;
+    margin: auto;
+    margin-bottom: 30px;
+    background: #F4F4F4;
+} 
+/* #z {
+    height: 200px;
+    border: 1px solid red;
+    margin: 25px;
+} */
