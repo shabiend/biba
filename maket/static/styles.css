@@ -5,3 +5,10 @@ header, main {
     width: 1200px;
     margin: auto;
 }
+ul {
+   list-style-type: none;
+   display: flex; 
+}
+li {
+    margin-right: 10px;
+}
