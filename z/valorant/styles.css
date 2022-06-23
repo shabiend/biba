@@ -1,0 +1,271 @@
+@font-face {
+    font-family: "Open Sans";
+    src: url(./fonts/OpenSans-VariableFont_wdth\,wght.ttf);
+}
+
+body {
+    overflow-x: hidden;
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    font-family: "Open Sans";
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    width: 100%;
+    height: 125px;
+    display: flex;
+    justify-content: space-around;
+    background-color: #F7F7F7;
+    border-radius: 0px 0px 20px 20px;
+    box-shadow: 0px 4px 12px rgba(139, 7, 202, 0.14);
+}
+
+.logo {
+    margin-top: 35px;
+}
+
+.navigation {
+    margin-top: 30px;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 50px;
+    list-style-type: none;
+}
+
+.wrapper li {
+    margin-right: 30px;
+}
+
+#menu {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+    color: #484848;
+    transition: all 0.25s ease-in-out;
+}
+
+#menu:hover {
+    text-decoration: underline;
+    color: #B05AE4;
+}
+
+main {
+    position: relative;
+    z-index: 1;
+    margin-top: 0;
+    background-color: #F7F7F7;
+    margin-top: 125px;
+    padding-bottom: 200px;
+}
+
+.dotted {
+    position: absolute;
+    left: -45px;
+    fill: #B05AE4;
+}
+
+.dotted1 {
+    position: absolute;
+    top: -70px;
+    right: -80px;
+}
+
+.salut {
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+}
+
+#salut {
+    align-items: flex-start;
+    margin-right: 50px;
+    padding: 130px 80px 0px 0px;
+}
+
+h1 {
+    color: #B05AE4;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 61px;
+    margin-top: 70px;
+}
+
+#aginfo {
+    margin-bottom: 35px;
+}
+
+#agname {
+    color: #B05AE4;
+    font-weight: bold;
+}
+
+.social {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+}
+
+#social {
+    margin-right: 20px;
+}
+
+#social img {
+    height: 35px;
+    width: 35px;
+}
+
+.ac {
+    position: relative;
+}
+
+.box-color {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    mix-blend-mode: overlay;
+    background-color: #B05AE4;
+    box-shadow: 5px 4px 12px rgba(139, 7, 202, 0.14), -8px -6px 21px #FFFFFF;
+    border-radius: 10px;
+
+}
+
+.h2 {
+    text-align: center;
+}
+
+.skills {
+    display: flex;
+    justify-content: center;
+
+}
+
+.wrapper1 {
+    margin: 50px;
+    width: 345px;
+    height: 370px;
+    background-color: #fff;
+    border-radius: 10px;
+    transition: all 0.25s ease-in;
+
+}
+
+.wrapper1:hover {
+    box-shadow: 9px 12px 12px rgba(139, 7, 202, 0.14);
+}
+
+h2 {
+    margin: 40px 0px 10px 20px;
+    font-weight: bold;
+}
+
+.wrapper1 img {
+    display: flex;
+    justify-content: center;
+    width: 122px;
+    height: 122px;
+    background-color: #B05AE4;
+    border-end-end-radius: 10px;
+    border-bottom-left-radius: 10px;
+    margin-left: 110px;
+}
+
+#text {
+    padding: 0px 20px;
+    text-align: left;
+    line-height: 25px;
+    font-size: 16px;
+}
+
+.aboutme {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 140px 0px;
+}
+
+.aboutme h1 {
+    margin-top: 10px;
+}
+
+#promo {
+    display: block;
+    width: 700px;
+    margin-bottom: 0;
+    margin-top: 10px;
+}
+
+.galery {
+    display: flex;
+    justify-content: center;
+
+}
+
+.photo {
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    width: 400px;
+    height: 390px;
+    border-radius: 10px;
+    transition: all 0.5s ease-in-out;
+    filter: grayscale(100%);
+}
+
+.photo:not(:last-child) {
+    margin-right: 20px;
+}
+
+.galery img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+
+}
+
+.photo:hover {
+    transform: scale(1.10);
+    margin: 0px 30px;
+    border-radius: 10px;
+    filter: grayscale(0%);
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    width: auto;
+    height: 160px;
+    background-color: #B05AE4;
+    border-top-left-radius: 15px;
+}
+
+#stick {
+    position: absolute;
+    z-index: 2;
+    left: 25px;
+    top: -185px;
+}
+
+.copyright {
+    text-align: center;
+    color: #fff;
+}
+
+footer img#dot3 {
+    position: absolute;
+    z-index: 0;
+    right: -37px;
+    bottom: 102px;
+}

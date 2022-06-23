@@ -1,0 +1,33 @@
+body {
+    background-color: #f8f8f8;
+}
+.regform {
+    width: 320px;
+    height: 320px;
+    padding: 15px;
+    background-color: #fff;
+    border: 20px solid rgb(240, 240, 240);
+}
+input {
+    width: 300px;
+    padding: 15px 5px;
+    border: 1px solid #ccc;
+}
+#form {
+    margin: 0;
+    padding: 5px 3px;
+}
+button {
+    width: 311px;
+    padding: 8px 0px;
+    color: #f8f8f8;
+    border: 1px solid #1cbc11;
+    background-color: #1cbc11;
+    transition: all 0.30s ease-in-out;
+}
+#buttonform {
+    padding: 5px 3px;
+}
+button:hover {
+    background-color: #14a20a;
+}

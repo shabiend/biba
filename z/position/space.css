@@ -1,0 +1,75 @@
+body {
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    padding: 0;
+    margin: 0;
+    background-image: url(./omg/img/bg.jpg);
+}
+
+img {
+    width: 100%;
+}
+
+#superman {
+    position: absolute;
+    bottom: 0px;
+    left: 100px;
+}
+
+#planet1 {
+    position: absolute;
+    right: 700px;
+    top: 100px;
+}
+
+#planet2 {
+    position: absolute;
+    width: 300px;
+    right: 740px;
+    top: 160px;
+}
+
+#planet3 {
+    position: absolute;
+    width: 400px;
+    right: 250px;
+    top: 400px;
+    transition: all 1.10s ease-in-out;
+}
+#planet3:hover {
+    transform: scale(1.10) 
+}
+
+#asteroid {
+    position: absolute;
+    width: 50px;
+    top: 380px;
+    left: 400px;
+}
+
+#ufo {
+    position: absolute;
+    width: 80px;
+    bottom: 200px;
+    right: 580px;
+}
+
+#spaceship {
+    position: absolute;
+    width: 45px;
+    right: 800px;
+    top: 130px;
+}
+
+#text {
+    position: absolute;
+    bottom: 70px;
+    left: 170px;
+    /* height: 50px;
+    width: 150px; */
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: white;
+    padding: 20px;
+}

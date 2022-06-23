@@ -1,0 +1,88 @@
+/* body {
+    padding: 0;
+    margin: 0;
+}
+
+#menu {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    background: linear-gradient(rgba(204, 0, 255, 1), rgba(228, 61, 172, 1));
+
+}
+
+#menu a {
+
+    padding: 12px 32px;
+    text-decoration: none;
+    color: white;
+    background: linear-gradient(rgba(204, 0, 255, 1), rgba(228, 61, 172, 1));
+    transition: all 0.35s ease-in;
+}
+
+#menu a:hover,
+#menu a.active {
+    color: rgba(204, 0, 255, 1);
+    background: none;
+    background-color: rgb(255, 255, 255);
+} */
+
+#wrapper {
+    width: 700px;
+    margin: 50px auto;
+    border: 1px solid #484848;
+    padding: 0;
+}
+
+#menu {
+    display: flex;
+    justify-content: start;
+    width: 100%;
+    height: auto;
+    background-color: #484848;
+    margin-bottom: 15px;
+    /* border: 0px solid rgb(59, 59, 59); */
+}
+
+#menu a {
+    text-decoration: none;
+    padding: 10px 25px;
+    color: rgb(255, 255, 255);
+    font: bold 14px Arial;
+    /* margin: 11px 25px; */
+    border: 0px solid #484848;
+}
+
+#content {
+    padding: 0px 10px 0px 10px;
+}
+
+#content h1 {
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+#content p {
+    text-align: justify;
+    margin-bottom: 5px;
+    font-size: 17px;
+}
+
+#link {
+    text-decoration: none;
+    color: blue;
+    font-weight: bold;
+}
+
+#link:hover {
+    color: rgb(69, 167, 24);
+    text-decoration: underline;
+}
+
+#menu a:hover,
+#menu a.active {
+    background-color: rgb(255, 255, 255);
+    color: #484848;
+}

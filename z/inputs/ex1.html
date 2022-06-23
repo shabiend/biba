@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="ex1.css">
+</head>
+
+<body>
+    <main>
+        <section class="logo">
+            <h1>Кто ты в Dota2</h1>
+            <div class="pic"><img src="./[CITYPNG.COM]HD Dota 2 Logo White Text With Symbol PNG - 1920x800.png"
+                    alt="logo"></div>
+            <p>В целом, всем ясно, что ты конченный, но давай разберемся какого ты сорта</p>
+        </section>
+        <section class="person">
+            <form action="/test" method="get">
+                <div>
+                    <table>
+                        <caption>Представься</caption>
+                        <tr>
+                            <td>ник в игре</td>
+                            <td><input type="text" name="nickname" id="nik" placeholder="Введи свой ник"></td>
+                        </tr>
+                        <tr>
+                            <td>ник в стиме</td>
+                            <td><input type="text" name="steamnick" id="snkick" placeholder="Введи ник в стиме"></td>
+                        </tr>
+                        <tr>
+                            <td>email</td>
+                            <td><input type="text" name="email" id="email" placeholder="Введи свой e-mail"></td>
+                        </tr>
+                        <tr>
+                            <td>возраст</td>
+                            <td><input type="number" min="1" max="100" step="1" name="age" id="age"
+                                    placeholder="Введи сколько тебе лет"></td>
+                        </tr>
+                    </table>
+                    <table>
+                        <caption>На ком играешь</caption>
+                        <tr>
+                            <td>Кор</td>
+                            <td><select name="core" id="core">
+                                    <option value="none">--/--</option>
+                                    <option value="am">Antimage</option>
+                                    <option value="pa">Phanton Asassin</option>
+                                    <option value="jugger">Jugger</option>
+                                </select></td>
+                        </tr>
+                        <tr>
+                            <td>мид</td>
+                            <td><select name="mid" id="mid">
+                                    <option>--/--</option>
+                                    <option value="invoker">Invoker</option>
+                                    <option value="ss">StormSpirit</option>
+                                    <option value="sf">ShadowFind</option>
+                                </select></td>
+                        </tr>
+                        <tr>
+                            <td>тройка</td>
+                            <td><select name="thirdpos" id="thirdpos">
+                                    <option>--/--</option>
+                                    <option value="slardar">Slardar</option>
+                                    <option value="db">DownBreaker</option>
+                                    <option value="dk">DragonKnight</option>
+                                </select></td>
+                        </tr>
+                        <tr>
+                            <td>четверка</td>
+                            <td><select name="fourpos" id="fourpos">
+                                    <option>--/--</option>
+                                    <option value="marci">Marci</option>
+                                    <option value="lion">Lion</option>
+                                    <option value="bane">Bane</option>
+                                </select></td>
+                        </tr>
+                        <tr>
+                            <td>полная поддержка</td>
+                            <td><select name="fivepos" id="fivepos">
+                                    <option>--/--</option>
+                                    <option value="cm">CrystalMaiden</option>
+                                    <option value="dr">Disraptor</option>
+                                    <option value="ok">OmnyKnight</option>
+                                </select></td>
+                        </tr>
+                        <tr>
+                            <td>Какие связки топовые</td>
+                            <td><textarea name="setup" id="setup" cols="30" rows="10"></textarea></td>
+                        </tr>
+                    </table><br>
+                </div>
+                <div class="test">
+                    <h2>От чего горит очко?</h2>
+                    <h6>Кого удалим из этой мусорки?</h6>
+                    <div class="del">
+                        <input type="radio" name="interview" id="interview1"><label
+                            for="interview1">Пангольера</label><br>
+                        <input type="radio" name="interview" id="interview2"><label for="interview2">СФ'а</label><br>
+                        <input type="radio" name="interview" id="interview3"><label for="interview3">Дизраптора</label>
+                    </div>
+                    <h6>Кого надо балансить?</h6>
+                    <div>
+                        <input type="radio" name="interview1" id="interview4"><label
+                            for="interview4">Пангольера</label><br>
+                        <input type="radio" name="interview1" id="interview5"><label for="interview5">СФ'а</label><br>
+                        <input type="radio" name="interview1" id="interview6"><label for="interview6">Дизраптора</label>
+                    </div>
+                </div>
+                <input type="reset" name="reset" id="reset"><br>
+                <input type="submit" value="отправить">
+            </form>
+        </section>
+        <section class="copyrights">made by Antosha. June, 2022</section>
+    </main>
+
+</body>
+
+</html>
